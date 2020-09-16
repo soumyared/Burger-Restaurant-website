@@ -1,0 +1,1401 @@
+@import "icon.css";
+.wrapper {
+width: 80%;
+margin: 0 auto;
+margin-left:auto;
+margin-right:auto;
+color:#ffff;
+background-color:black;
+}
+  @font-face {
+  font-family: 'Beyond The Mountains';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Beyond The Mountains';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+  }
+/* Style the body */
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.667;
+}
+.tri11{
+  background-image: url("./Menu_files/triangle_bg_black.png");
+  background-repeat: repeat-x;
+  margin-top: -10px;
+  opacity: 1;
+  background-size:20px 10px;
+  color: black;
+
+}
+.tri21{
+  background-image: url("./Menu_files/triangle_bg_black copy.png");
+  background-repeat: repeat-x;
+  margin-top: -302px;
+  margin-bottom: 195px;
+  opacity: 0.7;
+  background-size:20px 10px;
+  color: black;
+
+}
+.tri111{
+  background-image: url("./Menu_files/triangle_bg_black copy.png");
+  background-repeat: repeat-x;
+  margin-bottom:350px;
+  margin-top:-500px;
+  opacity: 0.7;
+  background-size:20px 10px;
+  color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  /*margin-left:100px;*/
+  background-color: black;
+  opacity: 0.7;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 11px;
+  text-decoration: none;
+  margin-top:30px;
+  margin-bottom:30px;
+  opacity: 1;
+}
+
+.topnav a:hover {
+  color: #EF0031;
+}
+
+.topnav a.active {
+  color: #EF0031;
+}
+
+/* Header/Logo Title */
+ .blog .header1 {
+  /*padding: 20px;*/
+  text-align: center;
+/*  background: red;*/
+  background-image: url("./Menu_files/hamburguesa6.jpg");
+  color: #fff;
+  font-family:'Open Sans';
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  height: 400px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.667;
+}
+.sobre .header1 {
+ /*padding: 20px;*/
+ text-align: center;
+/*  background: red;*/
+ background-image: url("./Menu_files/hamburguesa4.jpg");
+ color: #fff;
+ font-family:'Open Sans';
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ height: 400px;
+ width: 100%;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 1.667;
+}
+.blog .img1{
+  opacity: 0.9;
+  margin-left:40px;
+  margin-bottom:350px;
+  margin-top:-320px;
+  width: 25%;
+
+}
+
+h1{
+  font-family:'Beyond The Mountains';
+  font-size: 9vw;
+  font-weight: 600;
+  line-height: 1.667;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+
+}
+h2{
+  font-family:'Beyond The Mountains';
+  font-size: 5vw;
+  font-weight: 600;
+  line-height: 1.667;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+.headercontent1{
+  margin-top:50px;
+  font-weight: 400;
+  font-size: 15px;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+
+}
+
+.blog .row p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Content */
+.blog .content {padding:20px;
+color:red;}
+
+.blog .column {
+  float: left;
+  width: 47%;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog .row{
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.blog .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ .containera {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+ .containera img {vertical-align: middle;}
+
+ .containera .contenta {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  height:100%;
+  width: 100%;
+  font-size: 0.70em;
+  font-style: italic;
+  /*padding: 20px;*/
+}
+
+.blog .leftcolumn{
+  width: 55%;
+  float: left;
+  padding-right:25px;
+  margin-bottom: 20px;
+
+}
+.blog .rightcolumn{
+  width: 35%;
+  float: left;
+
+}
+
+.blog .column1{
+  width: 35%;
+  float: left;
+  padding-right:25px;
+}
+.blog .column2{
+  width: 55%;
+  float: left;
+
+}
+.blog .row1{
+  margin-top: 20px;
+}
+.blog .row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.blog button {
+  background-color: #EF0031;
+  border: none;
+  color: #fff;
+}
+ .abc{
+  font-family:'Open Sans';
+
+}
+ .abc input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+ .abc button {
+  background-color: #EF0031;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+ .abc .a button{
+  background-color: #EF0031;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  margin-left: 250px;
+}
+
+ .abc button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+ .abc .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+ .abc .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+ .abc img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+ .abc .container {
+  padding: 16px;
+  background-color: white;
+  color: black;
+}
+
+ .abc span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+ .abc .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 500;
+  top: 0;
+  right: 500;
+  margin-left:195px;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+ .abc .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+ .abc .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+ .abc .close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+ .abc .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+ .abc @-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+ .abc @keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+ .abc @media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+ .abc .cancelbtn {
+     width: 100%;
+     float:right;
+  }
+}
+
+.incio .header {
+ /*padding: 20px;*/
+ text-align: center;
+/*  background: red;*/
+ background-image: url("./Menu_files/hamburguesa2.jpg");
+ color: #fff;
+ font-family:'Open Sans';
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ height: 600px;
+ width: 100%;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 1.667;
+}
+
+.incio .img{
+  opacity: 0.9;
+  margin-left:40px;
+  margin-bottom:550px;
+  margin-top:-320px;
+  width: 25%;
+
+}
+.incio .button {
+  background-color: #EF0031;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.incio .button1 {
+  background-color: #EF0031;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.incio .headercontent{
+  margin-top:130px;
+  font-weight: 400;
+  font-size: 15px;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+
+}
+.incio .content1{
+  margin-top:-90px;
+  display: block;
+}
+.incio .content2{
+  text-align: center;
+
+}
+.incio .para1,.para2{
+  width:332px;
+  float:left;
+  margin-top:80px;
+}
+p{
+  color:#fff;
+}
+
+/* Page Content */
+.incio .content {padding:20px;
+color:red;}
+.incio .row p{
+  margin: 0;
+  padding: 0;
+}
+.incio .row{
+  margin-left:150px;
+  margin-right:100px;
+}
+.incio .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.incio .column {
+  float: left;
+  width: 18%;
+  padding: 5px;
+  margin-left:20px;
+  margin-right:20px;
+  text-align: center;
+}
+.incio .content3{
+  margin-top:350px;
+  text-align:center;
+}
+.incio .tri1{
+  background-image: url("./Menu_files/triangle_bg_black.png");
+  background-repeat: repeat-x;
+  margin-top: -10px;
+  opacity: 1;
+  background-size:20px 10px;
+  color: black;
+
+
+}
+.incio .tri2{
+  background-image: url("./Menu_files/triangle_bg_black copy.png");
+  background-repeat: repeat-x;
+  margin-top: -502px;
+  margin-bottom: 195px;
+  opacity: 0.7;
+  background-size:20px 10px;
+  color: black;
+
+}
+
+.sobre .img1{
+  opacity: 0.9;
+  margin-left:40px;
+  margin-bottom:350px;
+  margin-top:-320px;
+  width: 25%;
+
+}
+.sobre .img2{
+  opacity:1;
+  width: 25%;
+  text-align: center;
+  margin-left:375px;
+  margin-bottom:350px;
+  margin-top:-420px;
+
+}
+
+.sobre .row p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Content */
+.sobre .content {padding:20px;
+color:red;}
+
+.sobre .column {
+  float: left;
+  width: 47%;
+  padding: 10px;
+  text-align: center;
+}
+.sobre .car .column {
+  float: left;
+  width: 30%;
+  padding: 7px;
+  text-align: left;
+}
+.sobre .row{
+  margin-left:100px;
+  margin-right:100px;
+}
+.sobre table{
+  margin-left:150px;
+  margin-right:100px;
+  border-collapse:separate;
+  border-spacing: 0 15px;
+  margin-top:80px;
+  margin-bottom:100px;
+
+
+}
+.sobre .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sobre .fine{
+  text-align:center;
+  margin-left:100px;
+  margin-right:100px;
+}
+.sobre .content2{
+  text-align: center;
+
+}
+
+.sobre .car {box-sizing: border-box;
+  bfont-family: Verdana,sans-serif;
+  margin:0;}
+.sobre .car .mySlides {display: none}
+.sobre .car img {vertical-align: middle;}
+
+/* Slideshow container */
+.sobre .car .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.sobre .car .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.sobre .car .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.sobre .car .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.sobre .car .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.sobre .car .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.sobre .car .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.sobre .car .active, .dot:hover {
+  background-color: #717171;
+}
+.sobre .car img {
+  border-radius: 50%;
+}
+.incio table{
+  margin-left:150px;
+  margin-right:100px;
+  border-collapse:separate;
+  border-spacing: 0 15px;
+  margin-top:80px;
+  margin-bottom:100px;
+}
+
+.incio .list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  margin-left:150px;
+  margin-right:100px;
+  border-bottom: 4px solid #EF0031;;
+  margin-bottom:-50px;
+
+}
+
+.incio .list li {
+  float: left;
+}
+
+.incio .list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.incio .list li a:hover:not(.active) {
+  background-color: #333;
+}
+
+.incio .list li .active {
+  background-color: #EF0031;
+}
+.sobre .btn-group button {
+  background-color: #EF0031; /* Green background */
+  border: 1px solid #EF0031; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  text-align: center;
+  margin-right:15px;/* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.sobre .btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.sobre .btn-group button:hover {
+  background-color: #EF0031;
+}
+
+.menu .header1 {
+ /*padding: 20px;*/
+ text-align: center;
+/*  background: red;*/
+ background-image: url("./Menu_files/hamburguesa5.jpg");
+ color: #fff;
+ font-family:'Open Sans';
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ height: 400px;
+ width: 100%;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 1.667;
+}
+.menu .img1{
+ opacity: 0.9;
+ margin-left:40px;
+ margin-bottom:350px;
+ margin-top:-320px;
+ width: 25%;
+
+}
+.menu .img2{
+ opacity:1;
+ width: 25%;
+ text-align: center;
+ margin-left:375px;
+ margin-bottom:350px;
+ margin-top:-420px;
+
+}
+
+
+.menu .content2{
+ text-align: center;
+
+}
+
+.menu .row p{
+ margin: 0;
+ padding: 0;
+}
+
+/* Page Content */
+.menu .content {padding:20px;
+color:red;}
+
+.menu .column {
+ float: left;
+ width: 18%;
+ padding: 5px;
+ margin-left:20px;
+ margin-right:20px;
+ text-align: center;
+}
+.menu .row{
+ margin-left:150px;
+ margin-right:100px;
+}
+.menu table{
+ margin-left:150px;
+ margin-right:100px;
+ border-collapse:separate;
+ border-spacing: 0 15px;
+ margin-top:80px;
+ margin-bottom:100px;
+
+
+}
+.menu .row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.contact .img2{
+    text-align: center;
+    margin:5% 20% 2% 20%;
+}
+.contact .form{
+    margin:1% 20% 0% 20%;
+    height :auto;
+
+            }
+.contact .subscribe{
+    height : auto;
+}
+.contact .two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.contact .two-col .namef,
+.two-col .email {
+    width: 50%;
+}
+
+.contact .two-col .namef {
+    float: left;
+}
+
+.contact .two-col .email {
+    float: right;
+}
+
+.contact .two-col label {
+    display: block;
+}
+.contact .row{
+    text-align: center;
+}
+.contact input[type=submit] {
+    background-color: #EF0031;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact .header1 {
+ /*padding: 20px;*/
+ text-align: center;
+/*  background: red;*/
+ background-image: url("./Menu_files/hamburguesa7.jpg");
+ color: #fff;
+ font-family:'Open Sans';
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ height: 400px;
+ width: 100%;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 1.667;
+}
+.contact .img1{
+  opacity: 0.9;
+  margin-left:40px;
+  margin-bottom:350px;
+  margin-top:-320px;
+  width: 25%;
+
+}
+.shopping-cart {
+ width: 750px;
+ height: 423px;
+ margin: 80px auto;
+ box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+ border-radius: 6px;
+
+ display: flex;
+ flex-direction: column;
+}
+.shopping-cart .title {
+  height: 60px;
+  border-bottom: 1px solid #EF0031;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.shopping-cart .item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+
+.shopping-cart .item:nth-child(3) {
+  border-top:  1px solid #EF0031;
+  border-bottom:  1px solid #EF0031;
+}
+.shopping-cart .buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.shopping-cart .delete-btn,
+.like-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.shopping-cart .delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url(delete-icn.svg) no-repeat center;
+}
+
+.shopping-cart .like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: url('twitter-heart.png');
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+.shopping-cart .is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+.shopping-cart @keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+.shopping-cart .image {
+  margin-right: 50px;
+}
+
+Let’s add some basic style to  product name and description.
+.shopping-cart .description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+
+.shopping-cart .description span {
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  margin-right:100px;
+}
+
+.shopping-cart .description span:first-child {
+  margin-bottom: 5px;
+}
+.shopping-cart .description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #fff;
+}
+.shopping-cart .quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+.shopping-cart .quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #fff;
+  background-color:black;
+  font-weight: 300;
+}
+
+.shopping-cart button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #EF0031;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.shopping-cart .minus-btn img {
+  margin-bottom: 3px;
+}
+.shopping-cart .plus-btn img {
+  margin-top: 2px;
+}
+
+.shopping-cart button:focus,
+input:focus {
+  outline:0;
+}
+.shopping-cart .total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+}
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+.shopping-cart .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.shopping-cart .image img {
+    width: 50%;
+  }
+  .shopping-cart .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .shopping-cart .buttons {
+    margin-right: 20px;
+  }
+}
+.checkout * {
+  box-sizing: border-box;
+}
+
+.checkout .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.checkout .col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.checkout .col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.checkout .col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.checkout .col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.checkout .container {
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #EF0031;
+  border-radius: 3px;
+}
+
+.checkout input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.checkout label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.checkout .icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.checkout .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.checkout .btn:hover {
+  background-color: red;
+}
+
+.checkout a {
+  color: #fff;
+}
+
+.checkout hr {
+  border: 1px solid lightgrey;
+}
+
+.checkout span.price {
+  float: right;
+  color: #fff;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+.checkout   .row {
+    flex-direction: column-reverse;
+  }
+.checkout   .col-25 {
+    margin-bottom: 20px;
+  }
+}
+.checkout{
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:100px;
+}
+
+.admin{
+            margin-left: 100px;
+            margin-right:100px;
+            background-color: black;
+            color: white;
+            font-family: Open Sans;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.667;
+            text-align:center;
+
+
+        }
+.admin button{
+            background-color: #EF0031;
+            color: #fff;
+            padding: 12px 20px;
+            border: 1px;
+            border-radius: 4px;
+            padding-top: 2px;
+            cursor: pointer;
+            color:#fff;
+            font-size:15px;
+            font-family:'Open Sans';
+        }
+.loginform  input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size:15px;
+  font-family:'Open Sans';
+}
+.loginform input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+ .loginform input[type=password]:invalid {
+          border: 2px dashed red;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+.loginform  input[type=text]:invalid {
+          border: 2px dashed red;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+.loginform button {
+          background-color: #EF0031;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  button:hover {
+          opacity: 0.8;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: #EF0031;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  .imgcontainer {
+          text-align: center;
+          margin: 24px 0 12px 0;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  img.avatar {
+          width: 40%;
+          border-radius: 50%;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  .container {
+          padding: 16px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+          background-color: black;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+      .loginform  span.psw {
+          float: right;
+          padding-top: 16px;
+          font-size:15px;
+          font-family:'Open Sans';
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+      .loginform  @media screen and (max-width: 300px) {
+          span.psw {
+             display: block;
+             float: none;
+             font-size:15px;
+             font-family:'Open Sans';
+          }
+        .loginform  .cancelbtn {
+             width: 100%;
+             font-size:15px;
+             font-family:'Open Sans';
+          }
+        }
+
+
+      .logina  #shopping-cart {
+        	margin: 40px;
+          margin: 0 auto;
+          margin-left: auto;
+          margin-right: auto;
+          width:93%;
+          font-family: "Open Sans";
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 1.667;
+        }
+
+    .logina    #product-grid {
+        	margin: 40px;
+          font-family: "Open Sans";
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 1.667;
+        }
+
+    .logina    #shopping-cart table {
+        	width: 100%;
+        	background-color:black;
+        }
+
+    .logina    #shopping-cart table td {
+        	background-color:black;
+          font-size: 15px;
+          font-family: 'Open Sans';
+        }
+
+      .logina  .txt-heading {
+        	color: white;
+        	border-bottom: 1px solid #E0E0E0;
+        	overflow: auto;
+          font-size: 50px;
+          font-family: 'Beyond The Mountains';
+          font-weight: bold;
+        }
+
+    #btnEmpty {
+        	background-color: #EF0031;
+        	border: #d00000 1px solid;
+        	padding: 5px 10px;
+        	color: white;
+        	float: right;
+        	text-decoration: none;
+        	border-radius: 3px;
+        	margin: 10px 0px;
+        }
+
+    .logina    .btnAddAction {
+            padding: 5px 10px;
+            margin-left: 5px;
+            background-color: #efefef;
+            border: #EF0031 1px solid;
+            color: #211a1a;
+            float: right;
+            text-decoration: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+    .logina    #product-grid .txt-heading {
+        	margin-bottom: 18px;
+          font-size: 50px;
+          font-weight: bold;
+          font-family: 'Beyond The Mountains';
+
+        }
+
+    .logina    .product-item {
+        	float: left;
+        	background: #black;
+        	margin: 30px 30px 30px 30px;
+        	border: #EF0031 1px solid;
+        }
+
+    .logina    .product-image {
+        	height: 155px;
+        	width: 250px;
+        	background-color:black;
+        }
+     .logina .product-image img {
+        height: 150px;
+        width: 150px;
+        margin-left: 50px;
+            }
+
+    .logina    .clear-float {
+        	clear: both;
+        }
+
+      .logina  .demo-input-box {
+        	border-radius: 2px;
+        	border: #CCC 1px solid;
+        	padding: 2px 1px;
+        }
+
+      .logina  .tbl-cart {
+        	font-size: 0.9em;
+        }
+
+      .logina  .tbl-cart th {
+        	font-weight: normal;
+          font-size: 15px;
+          font-family: 'Open Sans';
+          color: #EF0031;
+        }
+
+      .logina  .product-title {
+        	margin-bottom: 20px;
+        }
+
+      .logina  .product-price {
+        	float:left;
+        }
+
+      .logina  .cart-action {
+        	float: right;
+        }
+
+      .logina  .product-quantity {
+            padding: 5px 10px;
+            border-radius: 3px;
+            border: #EF0031 1px solid;
+        }
+
+      .logina  .product-tile-footer {
+            padding: 15px 15px 0px 15px;
+            overflow: auto;
+        }
+
+      .logina  .cart-item-image {
+        	width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: #E0E0E 1px solid;
+            padding: 5px;
+            vertical-align: middle;
+            margin-right: 15px;
+        }
+      .logina  .no-records {
+        	text-align: center;
+        	clear: both;
+        	margin: 38px 0px;
+        }
+
+      #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
